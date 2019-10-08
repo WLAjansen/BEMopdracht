@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta:700');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+body{
+  background-color: #111111;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.header__top {
+ z-index: 2;
+ top: 20%;
+ left: 30%;
+ font-size: 120px;
+ position: absolute;
+ font-family: "Montserrat";
+ color: white;
+ text-align: center;
+}
+
+.header__center {
+  float: left;
+  display: inline;
+}
+
+.text__picture__header {
+  float: left;
+  margin-top: 100px;
+  margin-left: 50px;
+  max-width: 500px;
+  clear: left;
+}
+
+.button__header {
+  margin-right: 10px !important;
+  padding: 14px 30px;
+  border: none;
+  color: #fff;
+  font-size: 12px !important;
+  letter-spacing: 3px;
+  font-weight: 300;
+  cursor: pointer;
+  margin-top: 300px;
+  margin-left: -268px;
+}
+
+.button__middle__header {
+  background: none;
+  border: .3pt solid rgba(255, 255, 255, 0.3);
+}
+
+.button__pic__one {
+  background-image: linear-gradient(135deg, rgb(255, 6, 0) 0%, rgb(30, 144, 255) 100%, blue, 0%, blue 100%);
+  background-size: 100% 200%;
+  -webkit-transition: background-position .3s;
+  transition: background-position .3s;
+}
+
+.button__pic__one:hover {
+  background-position: 0 -100%;
+}
+
+.button__pic__header:hover {
+    background-position: 0 -100%;
+}
+
+.container__work {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.container__commerce {
+  max-width: 100%;
+  max-height: 100vh;
+  background: #111111;
+  font-size: 15px;
+  z-index: 100;
+  margin-top: 250px;
+  margin-bottom: 250px;
+}
+
+.container__commerce__center {
+  max-width: 100%;
+  max-height: 100vh;
+  background: white;
+  font-size: 15px;
+  z-index: 100;
+  margin-top: 250px;
+  margin-bottom: 250px;
+}
+
+.parallax {
+    min-height: 700px;
+    min-width: 100%;
+    background: transparent;
+}
+
+.parallax__window {
+    min-height: 500px;
+    min-width: 100%;
+    background: transparent;
+}
+
+.middle__text {
+  padding-left: 27%;
+}
+
+.right__text {
+  padding-left: 30%;
+  max-width: 500px;
+}
+
+.brand__logo {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  float: left;
+  left: 50px;
+  top: 50px;
+  animation: slideIn .5s forwards;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.pic__row img {
+  max-width: 800px;
+  align-content: center;
+  display: block;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  left: 30%;
+
+}
+
+.top__text__right {
+  position: fixed;
+  z-index: 3;
+  color: inherit;
+  font-size: 18px;
+  cursor: pointer;
+  list-style: underline;
+  right: 10%;
+  font-family: "Roboto";
+  margin-right: 2em;
+  top: 6.5%;
+}
+
+.bottom-text__left {
+  position: fixed;
+  z-index: 1;
+  color: grey;
+  font-size: 18px;
+  font-family: "Roboto";
+  margin-left: 4em;
+  align-content: 'space-between';
+  bottom: 40px;
+}
+
+.bottom__text__right {
+  position: fixed;
+  z-index: 1;
+  color: inherit;
+  font-size: 18px;
+  cursor: pointer;
+  list-style: underline;
+  right: 0;
+  font-family: "Roboto";
+  margin-right: 2em;
+  bottom: 40px;
+}
+
+.txt a {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-size: 12px;
+  margin-left: 15px;
+  z-index: 2;
+}
+
+.txt a:hover {
+  color: white;
+}
+
+.txt a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: red ;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.txt a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
